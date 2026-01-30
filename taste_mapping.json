@@ -1,0 +1,2389 @@
+{
+    "Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(6)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweetish": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Low sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(8); Intensely sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Less sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(6); Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Very sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless; Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet ": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(2); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(3); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(5); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless; Sweet(3)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(4); Intensely sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(2); Less sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly sweet; Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Very sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(3)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Intensely sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Very sweet; Sweet(3)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(5)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(3); Sweetish": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(5); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(17); Bitter; Sweet/Bitter; Sweet (bitter aftertaste)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(11); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Intensely sweet; Sweet(4)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(35); Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(6); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(8); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(11); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sulphurous/Sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(12); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(6); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(7)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(2); Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(4); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Bitter; Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(3); Sweet/Astringent; Sweet/Bitter; Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(8); Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(17)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(17); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Bitter(2); Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(5); Low sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(9); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Faintly sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly sweet; Sweet(2); Tasteless": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(25); Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(9)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter; Sweet(2); Slightly sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(17); Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Sweet(3)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(22); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(6); Highly Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Barely Sweet; Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly sweet; Sweet/Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(9); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(7); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(8); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(19); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Very sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(17); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Very sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Faintly sweet; Non-sweet/Fairly sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Bitter; Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Non-sweet/Sweet; Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet; Sweet(6)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Sour; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Non-sweet/Sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet/Sweet; Sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Salty; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Fairly sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Fairly sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet/Sweet; Sweet; Bitter/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(8); Sweet/Bitter; Sweet (bitter aftertaste)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Slightly sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(15); Bitter(2); Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(2); Slightly sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(23); Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(22); Very sweet; Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Non-bitter; Sweet(5)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly sweet ": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(3); Low sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(18); Very sweet; Non-bitter": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Strongly bitter; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet(2); Bitter(3)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(2); Non-sweet(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet; Bitter(4)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet(2); Bitter(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet; Bitter(3)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Extremely bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Strongly bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Moderately bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(4); Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Somewhat bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(2); Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Moderately bitter; Bitter(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Very bitter; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Moderately bitter; Slightly sweet; Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Very bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Faintly bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Intensely bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Strongly bitter; Bitter(3)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(2); Astringent": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Bitter/Sour": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Entirely Bitter; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(5); Non-sweet(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(2); Bitter/Slightly bitter; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Extremely bitter; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(4); Slightly bitter; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(2); Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless; Bitter(4); Slightly bitter; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(3); Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Salty/Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Bitter(6); Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(6); Strongly bitter; Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Faintly bitter\u00a0": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(2); Intensely bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Intensely bitter; Bitter/Sour": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Highly bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Somewhat Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Faint bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter(4); Intensely bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Feebly bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Bitter/Sweet; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter with sweet aftertaste; Bitter/Sweet; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter with sweet aftertaste": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter with sweet aftertaste; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet/Sweet; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter with sweet aftertaste; Non-sweet; Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Non-sweet(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Strongly bitter; Salty/Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Intensely bitter; Very bitter; Extremely bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly bitter; Bitter(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Burning; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter, burning, pungent, like fresh walnut; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Burning; Bitter(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Bitter; Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami; Astringent, umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami > Bitter; Umami, bitter; Umami": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami (neutral); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami (neutral); Umami(2)": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Salty/Umami (6.0); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Indistinct umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Salty/Umami(6.0); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Like MSG; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Weak umami; MSG-like(2); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "MSG-like; Umami ": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Brothy, Brothy (6.0), MSG-like, Salty/Umami (6.0); Like MSG; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Weak umami; MSG-like(2); Like MSG; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "MSG-like(2); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Brothy, Brothy (6.0), MSG-like, Salty/Umami (6.0), Umami; Like MSG, Umami; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Brothy, MSG-like (neutral); Like MSG; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami (6.0); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Brothy, Weak brothy (6.0), MSG-like (6.0); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Brothy taste; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami/Sweet; Umami": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami = Bitter; Umami, bitter; Umami": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami increased": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami(7); Salty/Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Weak umami; MSG-like": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "MSG-like ": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami; Umami, kokumi": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami; Umami/Sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour/Umami; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Umami; Sour, umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Weak umami; MSG-like; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami (neutral); Umami(3)": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sourness": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour(4); Sour/Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour(4); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour/Bitter; Sour": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Non-sweet; Sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour(3); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour(5); Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Salty; Salty/Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Bitter/Salty; Salty": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Bitter; Salty(2)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Salty": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Salty(2)": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Salty(3); Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Bitter; Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Bitter; Bitter/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour/Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet (Sour); Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Umami, sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Umami, sweet, kokumi": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter, kokumi, weak umami": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Bitter > Umami; Umami": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour, umami, sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour, salty": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Sour, slight bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Salty/Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Umami/Salty": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Bitter/Salty": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Strong umami, strong sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Bitter/Sour": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sweet/Sour/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Neutral; Salty; Umami; Sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Kokumi, weak umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour, umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Umami; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami, slight sweet and salty": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Bitter; Umami; Sweet/Sour": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter; Umami": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Salty/Sour/Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Sour/Umami/Sweet; Umami": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Umami/Sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour/Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter; Umami > Bitter; Umami": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet, umami": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Kokumi, umami, bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour, weak umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Umami; Kokumi, sweet, umami": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Salty, umami, sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Salty; Umami/Acid; Sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Umami/Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami, sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Salty/Umami (6.0)": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Delicious taste/Umami, sour, Sweet/Umami, sour; Umami, bitter, sour, salty; Umami": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Sweet/Sour": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter; Salty": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Sweet; Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Sweet; Sweet/Bitter(2)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Salty/Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Bitter; Sour": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter; Sweet/Sour": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sweet/Bitter; Bitter/Sweet; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Sour; Non-sweet/Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sweet/Bitter; Non-sweet/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Non-sweet/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour/Bitter; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour/Sweet; Non-sweet/Sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter/Sweet; Non-sweet(3)": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour/Bitter/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter/Sour; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Strong umami, sweet, salty": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 1
+    },
+    "Sour, weak umami, sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Strong umami, obvious sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami, sour, salty, kokumi": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Tasteless": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet; Tasteless": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless(2); Non-bitter": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless; Non-bitter": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless; Sweet; Non-sweet(3)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless(2); Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral; Sweet; Tasteless": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless(2); Neutral; Sour; Umami; Non-bitter": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Tasteless(2); Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet (Tasteless)": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral; Tasteless": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet/Sweet; Tasteless": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Tasteless; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Lacking sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-Sweet": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Non-sweet(3)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Not-sweet": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet (Menthol); Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Aniline- or hydrocarbon-like; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter with sweet aftertaste; Non-sweet/Sweet; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Non-sweet(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet(3); Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet(2); Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Tasteless": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Astringent": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Heating, pungent, and tingling": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet/Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-bitter/Burning": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Burning": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Astringent": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet/Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Tasteless": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Acrid": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet(2); Tasteless(2)": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sweet; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Tasteless; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Heating, pungent, and tingling": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour, astringent, umami-enhancing; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter (repugnant off-taste)": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami; Sour, umami, astringent": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Sour > astringent > umami > sweet > bitter; Sour, astringent, savory, sweet, bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Non-bitter; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Pungent": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Hot burning; Heating, pungent, and tingling; Moderately bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Cooling": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral; Sour": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Hot burning ": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral; Bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami-like (slight), sour, astringent; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Umami-like (slight), bitter, kokumi, astringent; Umami": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Slightly burning": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Astringent ": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Astringent, umamiless, sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour > astringent > umami > bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 0
+    },
+    "Bitter/Non-bitter": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral/Tasteless; Bitter/Sweet; Non-sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Neutral; Sweet/Bitter": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Burning/Pungent": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Burning/Scratchy": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Moderately bitter; Cooling": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sulphurous; Bitter/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami; Sour, umami, salty, astringent": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 1,
+        "Salty": 1
+    },
+    "Umami-like (slight), slight sweet, astringent; Umami": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Hot burning; Heating, pungent, and tingling; Tasteless": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Soapy": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Astringent/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Hot, Bitter, Slightly sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami-like, kokumi, astringent; Umami": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter with sweet aftertaste; Non-sweet/Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Tasteless": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter with sweet aftertaste; Non-sweet/Sweet; Non-sweet; Sweet": {
+        "Sweet": 1,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter/Tasteless; Non-sweet": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Aniline- or hydrocarbon-like": {
+        "Sweet": 0,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Non-sweet/Sweet; Sweet/Tasteless": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Bitter; Tasteless": {
+        "Sweet": 0,
+        "Bitter": 1,
+        "Umami": 0,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Umami; Astringent, umami, sweet": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 1,
+        "Sour": 0,
+        "Salty": 0
+    },
+    "Sour, sweet, astringent": {
+        "Sweet": 1,
+        "Bitter": 0,
+        "Umami": 0,
+        "Sour": 1,
+        "Salty": 0
+    }
+}

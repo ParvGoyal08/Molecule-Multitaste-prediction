@@ -1,0 +1,348 @@
+# REPORT
+
+## Objective
+
+GOAL - build a multi-label deep learning classifier that predicts taste properties of molecules (Sweet, Bitter, Umami) directly from their chemical structure.
+
+Initial experiments on the UmamiPred dataset showed that deep learning models (MLP, CNN) outperform classical machine learning approaches such as SVM and Random Forest, motivating the use of DL for taste prediction.
+
+
+
+## Dataset
+
+Source: ChemTastesDB (Excel format)
+* Molecule name
+* Canonical SMILES
+* Free-text taste description
+* Class taste labels
+
+Rows with missing values were removed during preprocessing.
+
+
+
+## Step 1: Initial Data Inspection
+
+* Loaded all molecular entries and inspected column consistency
+* Identified missing values in several rows
+* Dropped rows with any missing fields to ensure clean inputs
+
+
+
+## Step 2: Taste Description Mapping
+
+Taste annotations were provided as free-text (e.g., *“Neutral; Sweet/Bitter”*).
+These were converted into binary multi-label targets using keyword matching:
+
+* Sweet: contains “sweet”
+* Bitter: contains “bitter”
+* Umami: contains “umami”, “msg”, “brothy”, “kokumi”
+* Sour: contains “sour”
+* Salty: contains “salty”
+
+Salty and sour were ignored largely because of way too less data available in ChemTastesDB
+Mutlitaste was decomposed through taste descriptions into appropriate classes
+Classes with description as just Neutral/Tasteless were completely removed in the absence of any class to map them to
+
+IMPORTANT
+* Molecules can belong to multiple taste classes
+* Mapping was manually reviewed to fix obvious misclassifications
+CONSIDERATION - If this database is combined with other datasets, this type of mapping may no longer be appropriate. Most existing taste datasets dont provide taste descriptions. oly a final taste label derived from majority voting is provided usually. As a result, keyword-based mapping from text descriptions may be incompatible
+
+## Step 3: Duplicate Handling
+
+Some molecules appeared multiple times with identical SMILES but different taste annotations.
+
+* Duplicates were merged at the SMILES level
+* Labels were aggregated using a logical OR
+
+  * If any entry indicated a taste, it was assigned to the molecule
+
+Final output: chemtastesdb_multilabel_clean.csv
+
+
+
+## Embedding Generation
+
+Five molecular representations were generated (following UmamiPred methodology):
+
+### 1. Mol2Vec (300D)
+
+* Pre-trained Word2Vec-style molecular embeddings
+* Encodes substructure patterns
+* Continuous features
+
+### 2. ChemBERTa (768D)
+
+* Transformer-based molecular embeddings
+* Captures complex chemical relationships
+* Continuous features
+
+### 3. RDKit 2D Descriptors (~200 features)
+
+* Physicochemical and structural descriptors
+* Mix of continuous and discrete values
+* Issue: NaN, Inf, and extreme outliers
+
+### 4. Morgan Fingerprints (2048 bits)
+
+* Circular fingerprints
+* Binary representation
+
+### 5. MACCS Keys (167 bits)
+
+* Predefined structural keys
+* Binary representation
+
+Each embedding type was saved as a separate CSV file under `Embeddings/`.
+
+
+
+## Exploratory Data Analysis
+
+### 1. Class Imbalance
+
+* Sweet: ~60%
+* Bitter: ~40%
+* Umami: ~5%
+* Sour/Salty: extremely rare
+
+Sour and Salty were excluded from modeling.
+
+Mitigation:
+
+* Class weights
+* Focal Loss during training
+
+
+
+### 2. Embedding Quality
+
+* Mol2Vec, ChemBERTa: clean, no missing values
+* RDKit: NaN, Inf, extreme outliers
+* Morgan, MACCS: clean binary features
+
+Fixes applied:
+
+* `nan_to_num()` for RDKit
+* RobustScaler for RDKit
+* StandardScaler for continuous embeddings
+
+
+
+### 3. Feature Redundancy
+
+* High correlation between RDKit descriptors
+* Some MACCS bits had zero variance
+
+Applied:
+
+* Correlation removal (> 0.95)
+* Low-variance feature removal
+
+
+
+### 4. Feature Distributions
+
+* Mol2Vec & ChemBERTa: roughly normal
+* RDKit: heavily skewed
+
+Scaling choices:
+
+* StandardScaler for embeddings
+* RobustScaler for RDKit
+
+
+## Training Setup
+
+* Loss: Focal Loss (γ = 2.0) with class weights
+* Optimizer: AdamW (lr = 1e-3, weight decay = 1e-4)
+* Scheduler: ReduceLROnPlateau
+* Early stopping: validation AUROC (patience = 15)
+* Batch size: 32
+* Split: 70% train / 15% val / 15% test
+
+
+## PCA Experiment
+
+PCA was tested to reduce dimensionality while retaining 95% variance
+(1068 → ~400 dimensions).
+
+### Test Results
+
+| Metric      | No PCA | PCA    | Δ       |
+| -- |  |  | - |
+| Macro AUROC | 0.9288 | 0.9291 | +0.0003 |
+| Macro F1    | 0.7994 | 0.7706 | −0.0288 |
+| Exact Match | 0.7007 | 0.6696 | −0.0311 |
+
+Conclusion: PCA preserves AUROC but hurts F1 and exact match accuracy. 
+Might be better to use full feature space.
+
+
+ARCHITECTURE (MultiBranchClassifier):
+-------------------------------------
+Branch A: Embeddings (1068d)              Branch B: Fingerprints (~200d)
+[Mol2Vec + ChemBERTa]                     [MACCS + RDKit]
+         ↓                                         ↓
+  Linear(1068 → 512)                       Linear(~200 → 256)
+  BatchNorm → ReLU → Dropout               BatchNorm → ReLU → Dropout
+         ↓                                         ↓
+  Linear(512 → 256)                        Linear(256 → 128)
+  BatchNorm → ReLU → Dropout               BatchNorm → ReLU → Dropout
+         ↓                                         ↓
+         └─────────── Concatenate ─────────────────┘
+                           ↓
+                    Fusion: Linear(384 → 128)
+                    BatchNorm → ReLU → Dropout
+                           ↓
+                    Output Heads (3 × 128 → 32 → 1)
+
+
+
+### Preprocessing
+
+* Embeddings: StandardScaler
+* MACCS: no scaling
+* RDKit: RobustScaler
+
+### Feature Selection
+* Remove variance < 0.01
+* Remove correlation > 0.95
+
+
+FEATURE SELECTION BEFORE TRAINING:
+- Remove features with variance < 0.01 (near-constant)
+- Remove features with correlation > 0.95 (redundant)
+
+## Next Steps
+
+1. Finish training and evaluating the multi-branch model
+2. Collect more data (especially Umami samples)
+3. Hyperparameter tuning
+4. Try attention-based fusion instead of simple concatenation
+5. Experiment with additional embeddings (e.g., Morgan-only models)
+
+
+================================================================================
+ADDITIONAL INFORMATION
+================================================================================
+
+## Data Statistics (Before and After Cleaning)
+
+BEFORE CLEANING:
+- Original dataset: 4078 rows
+- Rows with missing values: 3
+- After dropping missing: 4075 rows
+- Duplicate SMILES entries: 193 unique molecules with duplicates
+- Total rows involved in duplicates: 419
+
+AFTER CLEANING (Final Dataset):
+- Unique molecules: 3849
+
+CLASS DISTRIBUTION (Final):
+- Sweet: 1382 (35.9%)
+- Bitter: 1758 (45.7%)
+- Umami: 295 (7.7%)
+- Sour: 106 (2.8%)
+- Salty: 56 (1.5%)
+
+
+## Multi-Label Statistics
+
+LABEL COUNT DISTRIBUTION:
+- 0 tastes (Neutral/Tasteless): 562 samples (14.6%)
+- 1 taste (Single-label): 3001 samples (78.0%)
+- 2 tastes: 266 samples (6.9%)
+- 3 tastes: 17 samples (0.4%)
+- 4 tastes: 2 samples (0.1%)
+- 5 tastes: 1 sample (0.0%)
+
+SUMMARY:
+- Neutral/Tasteless samples: 562 (14.6%) - These have no taste label assigned
+- Multi-label samples (>1 taste): 286 (7.4%)
+- Single-label samples (exactly 1 taste): 3001 (78.0%)
+
+Most of the dataset is single-label. Only 7.4% molecules have multiple tastes.
+
+
+## Clarifications
+
+1. DUPLICATE HANDLING AND MULTI-LABEL:
+   Duplicate handling is related to the multi-label problem. When the same 
+   molecule (same SMILES) appears multiple times with different taste labels,
+   we merge them using OR operator. This means if one entry says Sweet and 
+   another says Bitter, the final label becomes [Sweet=1, Bitter=1].
+
+2. NEUTRAL/TASTELESS DATA:
+   562 samples (14.6%) have no taste label (num_tastes = 0). These are molecules
+   described as "Neutral" or "Tasteless" in the original data. They were excluded
+   from training since there is no positive class to predict for them.
+
+3. SMOTE AND DATA AUGMENTATION:
+   No SMOTE or synthetic oversampling was applied. The class imbalance was 
+   addressed using:
+   - Focal Loss (γ = 2.0) which down-weights easy examples
+   - Class weights computed from inverse frequency (sqrt smoothing)
+
+   SMOTE Can be applied in future to augment umami samples as they are significantly 
+   less as compared to sweet and bitter compound
+
+
+5. PCA ALTERNATIVES:
+   PCA is not a priority as such especially if we increase the dataset size.
+   Pareto Evolutionary Algorithm can be explored later as that was applied in one 
+   of the research papers.
+
+================================================================================
+SYNOPSIS
+================================================================================
+
+
+TasteMolNet
+•	4,140 Bitter molecules, 6,099 Sweet molecules, 4,981 Tasteless molecules.
+•	https://coconut.naturalproducts.net/), PubChem database (https://pubchem.ncbi.nlm.nih.gov/, Molecular docking was performed using AutoDock Vina 1.2.7
+•	Electronic tongue validation
+•	Embeddings – ECFP, maccs, rdkit
+•	Graph based models(Message Passing Neural Networks (MPNN), AttentiveFP) also used but XGBoost-MACCS model was top performer
+•	F1 88.0% on test set
+•	SHAP analysis
+
+
+Predictingmultiple taste sensations with a multiobjective machine learning method
+•	Sweet (1,904), Bitter (1,937), Umami (227), and Other (649)
+•	VirtuousSweetBitter & Virtuous UmamiDatabases, UMP442, ChemTastesDB, BIOPEP-UWM(for umami peptide sequences)
+•	Rmoved Multitaste compounds
+•	2D Mordred descriptors for embeddings
+•	Random forest, adaboost
+•	76.54% ACC, 76.58% F1 in cross validation
+•	Pareto-Based Evolutionary Optimization to simultaneously optimize model performance and minimize the number of selected features.
+
+
+A chemical language model for molecular taste prediction
+•	Dataset
+o	ChemTasteDB: A large public database of organic and inorganic tastants.FlavorDB: Aggregates flavor profiles (taste and odor) for over 25,000 molecules.
+o	PlantMolecularTasteDB: Contains phytochemicals with associated tastes.
+o	TAS2R Agonists: A database specifically for ligands that bind to human bitter receptors.
+o	IUPAC Digitized pK_A Values: Acids likely to taste sour were identified from digitized reference works.
+o	Scientific Literature: Specifically used to find rare umami-tasting molecules
+•	Final Database FartDB is open source and available publicly
+•	RDKit
+•	Uses transformer-based approach based on ChemBERTa
+•	91% accuracy and is interpretable using integrated gradients
+•	Struggles with stereochemistry
+•	Uses an undefined class to handle multitaste, tasteless, sour, salty, etc.
+
+
+Classification of tastants: A deep learning based approach
+•	sweet, bitter, or umami
+•	ChemtastesDB + UMP442 + Bittersweet
+•	1,466 bitter, 1,764 sweet, and 238 umami + control group for (salt+sour+tasteless)  3706 total
+•	SMOTE(for umami) 
+•	DNN, GNN
+•	83% accuracy but struggle with sweet, bitter overlap
+•	SHAP for interpretability -> electrostatic properties and polarizability are most important
+•	RDKit embeddings
+•	Real world application on FooDB to identify potential tastes of several compounds
+•	Has functional group analysis
+
+
